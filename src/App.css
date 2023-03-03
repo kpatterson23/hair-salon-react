@@ -2,61 +2,68 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 300;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav {
+  background-color: #f3dcd4;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  background-color: #f3dcd4;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  border-radius: 40px;
 }
 
-.container-fluid .jumbotron, .container .jumbotron {
+.dropdown-menu {
+  background-color: #f3dcd4;
+}
+
+#founder {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.container-fluid .jumbotron,
+.container .jumbotron {
   border-radius: 6px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-@media screen and (min-width: 768px)
-{
-.container-fluid .jumbotron, .container .jumbotron {
+@media screen and (min-width: 768px) {
+  .container-fluid .jumbotron,
+  .container .jumbotron {
     padding-left: 60px;
     padding-right: 60px;
-}
+  }
 }
 
-@media screen and (min-width: 768px)
-{
-.jumbotron {
+@media screen and (min-width: 768px) {
+  .jumbotron {
     padding-bottom: 48px;
     padding-top: 48px;
-}
+  }
 }
 
 .jumbotron {
