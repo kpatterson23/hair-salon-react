@@ -77,3 +77,7 @@ footer {
   background-image: url(https://t3.ftcdn.net/jpg/02/81/42/34/360_F_281423494_L0BG7tWN6BhE5ZhsFW2nTAJrwrzGpM11.jpg);
   background-size: cover;
 }
+
+li :link {
+  text-decoration: none;
+}

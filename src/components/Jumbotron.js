@@ -6,8 +6,8 @@ const styling = {
 
 const Jumbotron = () => {
   return (
-    <div className="jumbotron">
-      <p className="lead text-white">Welcome to</p>
+    <div className="jumbotron pt-5 pb-5">
+      <p className="lead text-white pt-5">Welcome to</p>
       <h1 className="display-4 text-white mb-5" style={{ styling }}>
         Beauté Artistique Salon
       </h1>

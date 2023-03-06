@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Collapse,
   Navbar,
@@ -11,9 +11,7 @@ import {
 import BeautyLogo from "../app/assets/img/BA-logo-2.png";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     // Main Navigation Bar
@@ -27,11 +25,11 @@ const Header = () => {
             className="rounded-circle float-start"
           />
         </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
 
         {/* Navigation Links */}
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="me-auto" navbar>
+        <Collapse isOpen={menuOpen} navbar>
+          <Nav className="ms-auto" navbar>
             <NavItem>
               <NavLink className="nav-link" to="/">
                 Home
