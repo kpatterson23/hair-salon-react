@@ -1,6 +1,7 @@
 import Jumbotron from "../components/Jumbotron";
 import CardServices from "../components/CardServices";
 import Founder from "../components/Founder";
+import Gallery from "../components/Gallery";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Jumbotron />
       <CardServices />
       <Founder />
+      <Gallery />
     </div>
   );
 };
