@@ -78,6 +78,17 @@ footer {
   background-size: cover;
 }
 
+.carousel {
+  background-color: #eee;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 30px;
+  padding-bottom: 300px;
+  padding-top: 300px;
+  background-image: url(https://images.pexels.com/photos/7755239/pexels-photo-7755239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+}
+
 li :link {
   text-decoration: none;
 }
