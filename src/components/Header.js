@@ -1,23 +1,25 @@
-import { useState } from "react";
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-} from "reactstrap";
+	Navbar,
+	NavItem,
+	NavbarToggler,
+	Collapse,
+	NavLink,
+	Nav,
+	NavbarBrand
+} from 'reactstrap';
 import BeautyLogo from "../app/assets/img/BA-logo-2.png";
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
 
-  return (
-    // Main Navigation Bar
-    <div>
-      <Navbar light sticky="top" expand="md">
-        <NavbarBrand href="/" className="ms-5">
+	// Collapse isOpen State
+	const [isOpen, setIsOpen] = React.useState(false);
+
+	return (
+		<div>
+			<Navbar light sticky="top" expand="md">
+      <NavbarBrand href="/" className="ms-5">
           <img
             src={BeautyLogo}
             alt="Beauty Logo"
@@ -25,30 +27,26 @@ const Header = () => {
             className="rounded-circle float-start"
           />
         </NavbarBrand>
-        <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
-
-        {/* Navigation Links */}
-        <Collapse isOpen={menuOpen} navbar>
-          <Nav className="ms-auto" navbar>
+				<NavbarToggler onClick={() => { setIsOpen(!isOpen) }} />
+				<Collapse isOpen={isOpen} navbar>
+					<Nav className="mr-auto" navbar>
+						<NavItem>
+							<NavLink href="/">Home</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href="/about">About</NavLink>
+						</NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="/">
-                Home
-              </NavLink>
-              <NavLink className="nav-link" to="/about">
-                About
-              </NavLink>
-              <NavLink className="nav-link" to="/">
-                Services
-              </NavLink>
-              <NavLink className="nav-link" to="/">
-                Promotions
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
-    </div>
-  );
-};
+							<NavLink href="/">Services</NavLink>
+						</NavItem>
+            <NavItem>
+							<NavLink href="/">Promotions</NavLink>
+						</NavItem>
+					</Nav>
+				</Collapse>
+			</Navbar>
+		</div >
+	);
+}
 
 export default Header;
