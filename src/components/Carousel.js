@@ -1,5 +1,10 @@
+
 const CarouselImg = () => {
-  return <div className="carousel"></div>;
+  return (
+    <section className="carousel">
+      
+    </section>
+  );
 };
 
 export default CarouselImg;
