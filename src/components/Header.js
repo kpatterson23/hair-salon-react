@@ -40,7 +40,7 @@ const Header = () => {
 							<NavLink href="/services">Services</NavLink>
 						</NavItem>
             <NavItem>
-							<NavLink href="/">Promotions</NavLink>
+							<NavLink href="/promotions">Promotions</NavLink>
 						</NavItem>
 					</Nav>
 				</Collapse>

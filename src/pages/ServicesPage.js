@@ -1,13 +1,11 @@
-import Accordion from '../components/Accordion'
-
-import React from 'react'
+import Accordion from "../components/Accordion";
 
 const ServicesPage = () => {
   return (
     <div>
-        <Accordion />
+      <Accordion />
     </div>
-  )
-}
+  );
+};
 
-export default ServicesPage
+export default ServicesPage;
