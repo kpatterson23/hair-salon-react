@@ -11,7 +11,7 @@ export default class Testimonial extends Component {
         showThumbs={false}
         showStatus={false}
         autoPlay={true}
-        interval={6100}
+        interval={3500}
         className="pb-5"
       >
         <div>
@@ -20,7 +20,7 @@ export default class Testimonial extends Component {
             alt="Shirley"
           />
           <div className="myCarousel">
-            <h3>Shirley Fultz</h3>
+            <h3 className="pt-3">Shirley Fultz</h3>
             <h4>Client</h4>
             <p>
               I absolutely love my new hair! Lexy hooked me up on short notice.
@@ -35,7 +35,7 @@ export default class Testimonial extends Component {
             alt="Daniel"
           />
           <div className="myCarousel">
-            <h3>Daniel Keystone</h3>
+            <h3 className="pt-3">Daniel Keystone</h3>
             <h4>Client</h4>
             <p>
               My normal barber shop was closed and it was a late Sunday evening.
@@ -51,7 +51,7 @@ export default class Testimonial extends Component {
             alt="Theo"
           />
           <div className="myCarousel">
-            <h3>Theo Sorel</h3>
+            <h3 className="pt-3">Theo Sorel</h3>
             <h4>Client</h4>
             <p>
               Lexy has always done a great job on my daughter's hair, so when my

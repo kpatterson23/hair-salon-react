@@ -27,7 +27,7 @@ function ServAccordion(props) {
           <Col className="py-5 text-center">
             <h1>Beauté Artistique Services</h1>
             <p>Discuss special request with your stylist</p>
-            <Button type="submit" color="dark" className="btn-lg m-5">
+            <Button type="submit" color="dark" className="btn-lg m-5" href={'/booking'}>
               Book Now
             </Button>
           </Col>

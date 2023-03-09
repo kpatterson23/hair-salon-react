@@ -11,7 +11,7 @@ const Jumbotron = () => {
       <h1 className="display-4 text-white mb-5" style={{ styling }}>
         Beauté Artistique Salon
       </h1>
-      <Button type="submit" color="dark" className="btn-lg m-5">
+      <Button type="submit" color="dark" className="btn-lg m-5" href={'/booking'}>
         Book Now
       </Button>
     </div>

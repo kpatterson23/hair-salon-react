@@ -34,7 +34,7 @@ const PromoCards = () => {
               Take 30% off shampoo and blow-dry service with any cut, color or
               style. Limited time only!
             </CardText>
-            <Button type="submit" color="dark" className="btn-lg">
+            <Button type="submit" color="dark" className="btn-lg" href={'/booking'}>
               Book Now
             </Button>
           </CardBody>
@@ -49,7 +49,7 @@ const PromoCards = () => {
             <CardText>
               Basic Manicures only $5 for a limited time only!
             </CardText>
-            <Button type="submit" color="dark" className="btn-lg">
+            <Button type="submit" color="dark" className="btn-lg" href={'/booking'}>
               Book Now
             </Button>
           </CardBody>
@@ -65,7 +65,7 @@ const PromoCards = () => {
               Come get your new look with our limited time promotion on lash
               extensions!
             </CardText>
-            <Button type="submit" color="dark" className="btn-lg">
+            <Button type="submit" color="dark" className="btn-lg" href={'/booking'}>
               Book Now
             </Button>
           </CardBody>
