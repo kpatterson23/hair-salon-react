@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# Beauté Artistique React Hair Salon Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my first attempt at a successful website built using React. This project was built as a portfolio project while attending NuCamp's frontend developer bootcamp.
 
-## Available Scripts
+# Purpose
 
-In the project directory, you can run:
+The purpose of this project was to demostrate the skills aquired from studying React during the bootcamp. 
 
-### `npm start`
+# Why a hair salon website
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I chose to build a hair salon website for two reason: the first was to focus on a real world problem that newer salons may face. My wife is a cosmetology student and wants her own salon one day. She's excellent with hair but no so much with technology. This project was developed with her as my "client" and we held weekly meetings to update her on the ongoing process and to get feedback on where the development was in terms of completetion. The second reason I chose to build a hair salon website was as a challenge to myself. I wanted to build something that was personal to me and gave me the freedom to add as much as I could to show case the skills used to build the site, such as HTML5, CSS3, Javascript and React. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Disclaimer
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This website is just a demo for my skills. Also on this github account is another hair salon website I built previously. This React site is an extension of that original bootstrap 4 project, but written in React.
