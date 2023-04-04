@@ -11,11 +11,10 @@ const ContactForm = () => {
 
   return (
     <Container>
-        {/* Title Section */}
+      {/* Title Section */}
       <Row>
         <Col className="py-5 text-center">
           <h1>Appointments</h1>
-          
         </Col>
       </Row>
       {/* Booking Form */}
