@@ -1,3 +1,5 @@
+// This component is being used, but keeping just in case.
+
 import { Button, Label, Col, FormGroup, Container, Row } from "reactstrap";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import { validateContactForm } from "../utils/validateContactForm";
