@@ -2,10 +2,12 @@
   text-align: center;
 }
 
+html,
 body {
   font-family: "Gothic A1", sans-serif;
   font-weight: 300;
-  overflow-x: hidden;
+  overflow: hidden;
+  display: flex;
 }
 
 h1,
@@ -31,14 +33,32 @@ footer {
   overflow: hidden;
 }
 
-.btn {
-  border-radius: 40px;
-}
-
 #founder {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+}
+
+.landing {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+
+.landing-col {
+  background-image: url("../src/app/assets/img/tool-of-choice.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: none;
+  overflow: hidden;
+}
+
+.btn {
+  border-radius: 40px;
+  background-color: #f3dcd4 !important;
+  color: #000 !important;
+  border-style: none !important;
+  padding-bottom: 40px;
 }
 
 .container-fluid .jumbotron,
