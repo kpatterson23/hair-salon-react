@@ -6,8 +6,7 @@ html,
 body {
   font-family: "Gothic A1", sans-serif;
   font-weight: 300;
-  overflow: hidden;
-  display: flex;
+  overflow-x: hidden;
 }
 
 h1,
@@ -51,6 +50,7 @@ footer {
   background-position: center center;
   border: none;
   overflow: hidden;
+  display: flex;
 }
 
 .btn {

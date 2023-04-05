@@ -6,13 +6,18 @@ const LandingPage = () => {
       <Row>
         <Col className="landing-col"></Col>
         <Col>
-          <h1 className="display-4 p-5 mt-5">Beauté Artistique Salon</h1>
+          <h1 className="display-2 pt-5 pb-4 mt-5">Beauté Artistique Salon</h1>
           <br />
-          <p className="display-3 m-3">
+          <em className="display-4 m-4">
             Making you feel as beautiful on the outside as you feel on the
             inside
-          </p>
-          <Button type="submit" className="btn btn-lg m-5" href={"/home"}>
+          </em>
+          <br />
+          <Button
+            type="submit"
+            className="landing-btn btn btn-lg m-5"
+            href={"/home"}
+          >
             Welcome
           </Button>
           <br />
