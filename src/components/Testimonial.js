@@ -5,6 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 export default class Testimonial extends Component {
   render() {
     return (
+      // Carousel Options
       <Carousel
         showArrows={true}
         infiniteLoop={true}
@@ -14,6 +15,7 @@ export default class Testimonial extends Component {
         interval={3500}
         className="pb-5"
       >
+        {/* Carousel */}
         <div>
           <img
             src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

@@ -2,6 +2,7 @@ import { Container, Row, Col } from "reactstrap";
 
 const PoliciesCont = () => {
   return (
+    // Policies page
     <div>
       <Container>
         <Row className="py-5 text-left">

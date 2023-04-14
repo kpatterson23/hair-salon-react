@@ -1,3 +1,5 @@
+// Also not being used after being replaced by AppointmentCalendar.js
+
 export const validateContactForm = (values) => {
   const errors = {};
 

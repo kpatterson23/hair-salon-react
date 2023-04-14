@@ -32,15 +32,18 @@ footer {
   overflow: hidden;
 }
 
+/* Founder image styling */
 #founder {
   border-radius: 50%;
   width: 200px;
   height: 200px;
 }
 
+/* Landing page styling */
 .landing {
   background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
+  overflow-y: hidden;
 }
 
 .landing-col {
@@ -53,6 +56,7 @@ footer {
   display: flex;
 }
 
+/* All button styling */
 .btn {
   border-radius: 40px;
   background-color: #f3dcd4 !important;
@@ -68,6 +72,7 @@ footer {
   padding-right: 15px;
 }
 
+/* Jumbotron styling */
 @media screen and (min-width: 768px) {
   .container-fluid .jumbotron,
   .container .jumbotron {
@@ -94,6 +99,7 @@ footer {
   background-size: cover;
 }
 
+/* About me carousel styling */
 .carouselimg {
   background-color: #eee;
   padding-left: 60px;
@@ -204,10 +210,6 @@ li :link {
   top: 35% !important;
 }
 
-.App {
-  text-align: center;
-}
-
 @media only screen and (max-width: 934px) {
   .carousel-root {
     outline: 0;
@@ -218,6 +220,7 @@ li :link {
   .carousel.carousel-slider .control-arrow {
     display: none !important;
   }
+
   .myCarousel {
     background: #fafafa;
     margin-top: -9%;

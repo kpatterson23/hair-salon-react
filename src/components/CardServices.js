@@ -13,6 +13,7 @@ import MakeupPhoto from "../app/assets/img/services-makeup.jpg";
 
 const CardServices = () => {
   return (
+    // Card Services on homepage
     <CardGroup>
       <Card>
         <CardImg

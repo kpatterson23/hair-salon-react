@@ -1,4 +1,5 @@
-// This component is being used, but keeping just in case.
+// This component isn't being used, but keeping just in case.
+// Was replaced with AppointmentCalender.js
 
 import { Button, Label, Col, FormGroup, Container, Row } from "reactstrap";
 import { Formik, Field, Form, ErrorMessage } from "formik";

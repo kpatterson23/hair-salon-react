@@ -7,9 +7,11 @@ import interactionPlugin from "@fullcalendar/interaction";
 import { Container, Row } from "reactstrap";
 
 function AppointmentCalendar(props) {
+  // Sets state for calendar
   const [appointments, setAppointments] = useState([]);
   const calendarRef = useRef(null);
 
+  // Calendar options
   useEffect(() => {
     const calendarApi = calendarRef.current.getApi();
     calendarApi.setOption("slotDuration", "01:00:00");
@@ -23,6 +25,7 @@ function AppointmentCalendar(props) {
     setAppointments(loadAppointments());
   }, []);
 
+  // Controls calendar prompt and storage
   const handleSelect = (arg) => {
     const title = prompt("Enter appointment title:");
     if (title) {
@@ -40,12 +43,14 @@ function AppointmentCalendar(props) {
     }
   };
 
+  // Load appointments from localStorage
   const loadAppointments = () => {
     const storedAppointments = localStorage.getItem("appointments");
     return storedAppointments ? JSON.parse(storedAppointments) : [];
   };
 
   return (
+    // Shows calendar
     <Container>
       <Row className="py-5">
         <FullCalendar

@@ -13,6 +13,7 @@ import {
 
 const PromoCards = () => {
   return (
+    // Promotion Cards
     <div>
       {/* Promotions Title */}
       <Container className="p-5">

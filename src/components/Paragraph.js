@@ -2,6 +2,7 @@ import React from "react";
 
 const Paragraph = () => {
   return (
+    // About us paragraph section
     <section
       className="rounded m-0 pt-5 pb-5"
       style={{ backgroundColor: "#fedcd4" }}

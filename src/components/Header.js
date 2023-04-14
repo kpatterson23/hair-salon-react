@@ -12,9 +12,10 @@ import {
 import BeautyLogo from "../app/assets/img/BA-logo-2.png";
 
 const Header = () => {
-  // Collapse isOpen State
+  // Controls whether the navbar is open or closed
   const [isOpen, setIsOpen] = React.useState(false);
 
+  // Main navbar
   return (
     <div>
       <Navbar light sticky="top" expand="md">

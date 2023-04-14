@@ -11,6 +11,7 @@ import {
 } from "reactstrap";
 
 function ServAccordion(props) {
+  // Sets state for accordion
   const [open, setOpen] = useState("1");
   const toggle = (id) => {
     if (open === id) {
@@ -21,6 +22,7 @@ function ServAccordion(props) {
   };
 
   return (
+    // Accordion Title
     <div>
       <Container className="py-5">
         <Row>
@@ -32,7 +34,7 @@ function ServAccordion(props) {
             </Button>
           </Col>
         </Row>
-
+        {/* Accordion Component */}
         <Accordion open={open} toggle={toggle}>
           <AccordionItem>
             <AccordionHeader targetId="1">Hair services</AccordionHeader>

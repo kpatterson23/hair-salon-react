@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 
+// Main Footer Component
 const Footer = () => {
   return (
     <footer className="footer pt-5 pb-5">

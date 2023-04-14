@@ -5,6 +5,7 @@ const styling = {
 };
 
 const Jumbotron = () => {
+  // Jumbotron for homepage
   return (
     <div className="jumbotron pt-5 pb-5">
       <p className="lead text-white pt-5">Welcome to</p>
